@@ -1,10 +1,10 @@
-//application {
-//    mainClass = 'com.k.rlite.Main'
-//}
-
 plugins {
     id 'java'
     id 'application'
+}
+
+application {
+    mainClass = 'com.k.rlite.Main'
 }
 
 group = 'com.k.rlite'
